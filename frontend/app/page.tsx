@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Plus, Trash2, Check } from 'lucide-react';
 
-const API_URL = 'http://backend:5000';
+const API_URL = 'http://localhost:5000';
 
 export default function Home() {
   const [todos, setTodos] = useState<any[]>([]);
